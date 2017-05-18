@@ -1,0 +1,117 @@
+/* reset default margins, paddings, and box-sizings */
+* {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+  /*
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  */
+}
+
+
+/* Fixed Header */
+
+.fixed-header{
+  position: fixed;
+  width: 100%;
+  background-color: rgb(0, 140, 100);
+  z-index: 999;
+  height: 15%;
+}
+
+#name {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+  padding-top: 10px;
+  text-align: left;
+  
+}
+
+.links {
+  text-align: center;
+  height: 100%;
+  width: 49%;
+  display: inline-block;
+  position: relative;
+  bottom: 25%;
+}
+
+h1 {
+  font-family: Oswald;
+  color: White;
+  font-size: 50px; 
+  position: relative;
+  left: 10%;
+}
+
+.link {
+  font-family: Impact;
+  color: White;
+  font-size: 40px;
+  position: relative;
+  top: 20%;
+  
+}
+
+#github {
+  position: relative;
+  right: 10%;
+}
+
+#facebook {
+  position: relative;;
+  left: 10%
+}
+
+.link:hover {
+  color: Red;
+}
+
+.link:active {
+  color: White;
+}
+
+
+/* Body */
+
+#all {
+  position: absolute;
+  top: 15%;
+}
+
+.photo {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  position: relative;
+}
+
+.hello-world{
+  width: 75%;
+  display: inline-block;
+}
+
+h2 {
+  font-family: Oswald;
+  color: White; 
+  text-align: center;
+  background-color: Green;
+}
+
+p {
+  font-family: Raleway;
+}
+
+img {
+  display: inline-block;
+}
+
+
+/* Footer */
+
+.footer {
+  text-align: center;
+}
