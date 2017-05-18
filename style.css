@@ -85,10 +85,10 @@ h1 {
   top: 15%;
 }
 
-#waves-gif {
+#big-image {
 	width: 100%;
 	height: 400px;
-	background-image: url("waves-gif1.gif");
+	background-image: url("http://www.summer.ucsb.edu/sites/dev.summer.ucsb.edu/files/styles/hero_image/public/HOMEPAGE.jpg?itok=4UFNFSLl");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
