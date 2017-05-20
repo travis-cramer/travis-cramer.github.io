@@ -48,6 +48,7 @@ h1 {
 
 .link {
   color: White;
+  display: none;
 }
 
 /* THE REST OF THE BODY */
@@ -59,7 +60,7 @@ h1 {
   position: relative;
   top: 700px;
   left: 15%;
-  background-color: rgba(0, 100, 200, 0.9);
+  background: -webkit-linear-gradient(rgb(0, 100, 200), rgb(0, 200, 100));
   border-radius: 3%;
   border-style: outset;
   
