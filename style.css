@@ -11,13 +11,18 @@ head, title {
   display: none;
 }
 
+body {
+  background-color: background-color: rgb(0, 200, 100);
+  z-index: 1;
+}
+
 /* FIXED HEADER */
 
 .fixed-header {
   height: 100px;
   width: 100%;
   position: fixed;
-  background-color: White;
+  background-color: rgb(0, 200, 100);
   z-index: 999;
 }
 
@@ -25,6 +30,10 @@ h1 {
   padding-left: 1%;
   display: inline;
   text-align: left;
+  font-family: Roboto;
+  position: relative;
+  top: 30%;
+  color: White;
 }
 
 
@@ -37,6 +46,10 @@ h1 {
   display: inline;
 }
 
+.link {
+  color: White;
+}
+
 /* THE REST OF THE BODY */
 
 
@@ -46,7 +59,10 @@ h1 {
   position: relative;
   top: 700px;
   left: 15%;
-  background-color: White;
+  background-color: rgba(0, 100, 200, 0.9);
+  border-radius: 3%;
+  border-style: outset;
+  
 }
 
 h2, p, .footer {
@@ -58,6 +74,12 @@ h2, p, .footer {
 
 h2, p {
   padding: 60px 0px;
+  color: White;
+  font-family: Roboto;
+}
+
+p {
+  padding: 0 10%;
 }
 
 .footer {
@@ -74,5 +96,6 @@ a {
   background-image: url('code.png');
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: background-color: rgb(0, 200, 100);
 }
 
