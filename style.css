@@ -1,9 +1,27 @@
 * {
-  
+  border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 0;
   overflow: scroll;
   margin: 0;
-  display: inline-block;
+  box-sizing: border-box;
+}
+
+head, title {
+  display: none;
+}
+
+body {
+  background-color: background-color: rgb(0, 200, 100);
+  z-index: 1;
+}
+
+/* FIXED HEADER */
+
+* {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0;
+  overflow: scroll;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -22,7 +40,7 @@ body {
   height: 100px;
   width: 100%;
   position: fixed;
-  background-color: rgb(0, 200, 100);
+  background-color: SeaGreen;
   z-index: 999;
 }
 
@@ -48,18 +66,31 @@ h1 {
 
 .link {
   color: White;
-  display: none;
 }
 
 /* THE REST OF THE BODY */
 
+#intro {
+  width: 100%;
+  background-color: Navy;
+  height: 130px;
+  z-index: 990;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+}
+
+#intro-text {
+  padding-top: 30px;
+}
+
 
 .hello-world {
-  width: 75%;
+  width: 90%;
   height: 800px;
   position: relative;
-  top: 700px;
-  left: 15%;
+  
+  left: 4.5%;
   background: -webkit-linear-gradient(rgb(0, 100, 200), rgb(0, 200, 100));
   border-radius: 3%;
   border-style: outset;
@@ -85,6 +116,8 @@ p {
 
 .footer {
   position: relative;
+  top: 30px;
+  padding-bottom: 20px;
 }
 
 
@@ -93,10 +126,109 @@ a {
   border: 0;
 }
 
-#all {
+#big-img {
+  width: 100%;
+  height: 800px;
   background-image: url('code.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: background-color: rgb(0, 200, 100);
+  z-index: 800;
+  position: relative;
+  top: 50px;
+}
+
+.text-link {
+  color: White;
+}
+
+h1 {
+  padding-left: 1%;
+  display: inline;
+  text-align: left;
+  font-family: Roboto;
+  position: relative;
+  top: 30%;
+  color: White;
+}
+
+
+.links {
+}
+
+.links, .link, li, ul {
+  height: 95%;
+  width: 30%;
+  display: inline;
+}
+
+.link {
+  color: White;
+}
+
+/* THE REST OF THE BODY */
+
+.intro {
+  width: 100%;
+  height: 800px;
+  z-index: 990;
+  display: inline-block;
+  position: relative;
+  top: 400px;
+  background-color: Red;
+}
+
+
+.hello-world {
+  width: 90%;
+  height: 800px;
+  position: relative;
+  top: 40px;
+  left: 4.5%;
+  background: -webkit-linear-gradient(rgb(0, 100, 200), rgb(0, 200, 100));
+  border-radius: 3%;
+  border-style: outset;
+  
+}
+
+h2, p, .footer {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  overflow: scroll;
+}
+
+h2, p {
+  padding: 60px 0px;
+  color: White;
+  font-family: Roboto;
+}
+
+p {
+  padding: 0 10%;
+}
+
+.footer {
+  position: relative;
+  top: 30px;
+  padding-bottom: 20px;
+}
+
+
+a {
+  display: inline;
+  border: 0;
+}
+
+#big-img {
+  width: 100%;
+  height: 800px;
+  background-image: url('code.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 800;
+}
+
+.text-link {
+  color: White;
 }
 
