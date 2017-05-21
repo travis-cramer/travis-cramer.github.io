@@ -23,7 +23,8 @@ div, p {
 .nav {
   position: fixed;
   width: 100%;
-  height: 17.5%;
+  height: 17.9%;
+  min-height: 100px;
   background-color: rgba(75, 82, 100, 1);
   z-index: 990;
   top: 0;
@@ -63,6 +64,7 @@ li a:hover {
 /* CONTAINER */
 
 .container {
+  width: 100%;
   position: fixed;
   top: 99px;
   background: -webkit-linear-gradient(120deg, #78a5a3 10%,#efefef );
@@ -85,7 +87,7 @@ h2, #intro, #self-photo {
   background-color: White;
   width: 90%;
   height: 76%;
-  overflow: scroll;
+  overflow-y: scroll;
   margin: auto;
   position: relative;
   top: 35px;
