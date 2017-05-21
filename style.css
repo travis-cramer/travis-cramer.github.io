@@ -33,6 +33,7 @@ h1 {
   color: White;
   padding: 1rem;
   font-family: Bitter;
+  font-size: 2em;
 }
 
 ul {
@@ -45,6 +46,7 @@ ul {
 
 li {
     float: left;
+    font-size: 1em;
 }
 
 li a {
