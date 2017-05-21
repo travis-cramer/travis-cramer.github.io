@@ -32,8 +32,7 @@ div, p {
 h1 {
   color: White;
   padding: 1rem;
-  font-family: Bitter;
-  font-size: 2em;
+  font-size: 204%;
 }
 
 ul {
@@ -168,3 +167,11 @@ h3 {
   bottom: 0px;
   font-size: 1em;
 }
+
+/* FOR MOBILE DEVICES */
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  * {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+} 
