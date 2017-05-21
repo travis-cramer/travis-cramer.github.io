@@ -1,234 +1,127 @@
 * {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 0;
-  overflow: scroll;
+  display: block;
+  border: 0px solid rgba(0, 0, 0, 0.3);
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
 }
 
-head, title {
+/* make head hidden */
+head {
   display: none;
 }
 
 body {
-  background-color: background-color: rgb(0, 200, 100);
-  z-index: 1;
-}
-
-/* FIXED HEADER */
-
-* {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 0;
   overflow: scroll;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-head, title {
-  display: none;
-}
-
-body {
-  background-color: background-color: rgb(0, 200, 100);
-  z-index: 1;
 }
 
 /* FIXED HEADER */
 
-.fixed-header {
-  height: 100px;
-  width: 100%;
+.nav {
   position: fixed;
-  background-color: SeaGreen;
-  z-index: 999;
+  width: 100%;
+  background-color: rgba(75, 82, 100, 1);
+  z-index: 990;
+  top: 0;
 }
 
 h1 {
-  padding-left: 1%;
-  display: inline;
-  text-align: left;
+  color: White;
+  padding: 1rem;
+  font-family: Bitter;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+/* CONTAINER */
+
+.container {
+  position: fixed;
+  top: 99px;
+  background: -webkit-linear-gradient(120deg, #78a5a3 10%,#efefef );
+  height: 1000px;
+  overflow: scroll;
+}
+
+h1, h2, h3, .nav-link {
   font-family: Roboto;
+}
+
+/* MAIN BODY */
+
+.main-body {
+  background-color: White;
+  width: 90%;
+  height: 53%;
+  overflow: scroll;
+  margin: auto;
   position: relative;
-  top: 30%;
-  color: White;
+  top: 35px;
+  border-radius: 20px;
+
 }
 
-
-.links {
+h2, h3 {
+  width: 40%;
+  text-align: center;
 }
 
-.links, .link, li, ul {
-  height: 95%;
-  width: 30%;
+h2, h3, .main-text {
+  margin: 10px auto;
+}
+
+h3 {
+  padding-top: 0px;
+}
+
+#projects-title {
+  margin-bottom: 50px;
+}
+
+.main-text {
+  padding: 30px 80px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans';
+}
+
+.text-link {
   display: inline;
 }
-
-.link {
-  color: White;
-}
-
-/* THE REST OF THE BODY */
 
 #intro {
-  width: 100%;
-  background-color: Navy;
-  height: 130px;
-  z-index: 990;
-  display: inline-block;
   position: relative;
-  top: 100px;
-}
-
-#intro-text {
-  padding-top: 30px;
+  top: 15px;
 }
 
 
-.hello-world {
-  width: 90%;
-  height: 800px;
-  position: relative;
-  
-  left: 4.5%;
-  background: -webkit-linear-gradient(rgb(0, 100, 200), rgb(0, 200, 100));
-  border-radius: 3%;
-  border-style: outset;
-  
-}
-
-h2, p, .footer {
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  overflow: scroll;
-}
-
-h2, p {
-  padding: 60px 0px;
-  color: White;
-  font-family: Roboto;
-}
-
-p {
-  padding: 0 10%;
-}
+/* FOOTER */
 
 .footer {
-  position: relative;
-  top: 30px;
-  padding-bottom: 20px;
-}
-
-
-a {
-  display: inline;
-  border: 0;
-}
-
-#big-img {
-  width: 100%;
-  height: 800px;
-  background-image: url('code.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 800;
-  position: relative;
-  top: 50px;
-}
-
-.text-link {
-  color: White;
-}
-
-h1 {
-  padding-left: 1%;
-  display: inline;
-  text-align: left;
-  font-family: Roboto;
-  position: relative;
-  top: 30%;
-  color: White;
-}
-
-
-.links {
-}
-
-.links, .link, li, ul {
-  height: 95%;
-  width: 30%;
-  display: inline;
-}
-
-.link {
-  color: White;
-}
-
-/* THE REST OF THE BODY */
-
-.intro {
-  width: 100%;
-  height: 800px;
-  z-index: 990;
-  display: inline-block;
-  position: relative;
-  top: 400px;
-  background-color: Red;
-}
-
-
-.hello-world {
-  width: 90%;
-  height: 800px;
-  position: relative;
-  top: 40px;
-  left: 4.5%;
-  background: -webkit-linear-gradient(rgb(0, 100, 200), rgb(0, 200, 100));
-  border-radius: 3%;
-  border-style: outset;
-  
-}
-
-h2, p, .footer {
-  width: 100%;
-  display: inline-block;
   text-align: center;
-  overflow: scroll;
-}
-
-h2, p {
-  padding: 60px 0px;
-  color: White;
-  font-family: Roboto;
-}
-
-p {
-  padding: 0 10%;
-}
-
-.footer {
-  position: relative;
-  top: 30px;
-  padding-bottom: 20px;
-}
-
-
-a {
-  display: inline;
-  border: 0;
-}
-
-#big-img {
+  color: Black;
+  background-color: White;
+  position: fixed;
   width: 100%;
-  height: 800px;
-  background-image: url('code.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 800;
+  bottom: 0px;
 }
-
-.text-link {
-  color: White;
-}
-
