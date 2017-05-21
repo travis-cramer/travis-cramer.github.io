@@ -82,7 +82,7 @@ h2, #intro, #self-photo {
 .main-body {
   background-color: White;
   width: 90%;
-  height: 54%;
+  height: 53%;
   overflow: scroll;
   margin: auto;
   position: relative;
@@ -91,6 +91,12 @@ h2, #intro, #self-photo {
 }
 
 /* BIO */
+
+#sub-title {
+  width: 100%;
+  position: relative;
+  top : 5%;
+}
 
 #bio {
   margin-bottom: 160px;
@@ -103,13 +109,14 @@ h2, #intro, #self-photo {
   margin-bottom: 60px;
   position: relative;
   top: 50px;
+  left: 10px;
 }
 
 #intro {
   width: 200px;
   position: relative;
   top: 100px;
-  left: 150px;
+  left: 160px;
   float: left;
 }
 
