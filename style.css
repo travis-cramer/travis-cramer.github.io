@@ -64,7 +64,7 @@ li a:hover {
   position: fixed;
   top: 99px;
   background: -webkit-linear-gradient(120deg, #78a5a3 10%,#efefef );
-  height: 1000px;
+  height: 100%;
   overflow: scroll;
 }
 
@@ -82,7 +82,7 @@ h2, #intro, #self-photo {
 .main-body {
   background-color: White;
   width: 90%;
-  height: 53%;
+  height: 76%;
   overflow: scroll;
   margin: auto;
   position: relative;
