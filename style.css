@@ -14,6 +14,10 @@ body {
   overflow: scroll;
 }
 
+div, p {
+  border: 0px;
+}
+
 /* FIXED HEADER */
 
 .nav {
@@ -70,21 +74,52 @@ h1, h2, h3, .nav-link {
 
 /* MAIN BODY */
 
+h2, #intro, #self-photo {
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-style: outset;
+}
+
 .main-body {
   background-color: White;
   width: 90%;
-  height: 53%;
+  height: 54%;
   overflow: scroll;
   margin: auto;
   position: relative;
   top: 35px;
   border-radius: 20px;
+}
 
+/* BIO */
+
+#bio {
+  margin-bottom: 160px;
+}
+
+#self-photo {
+  width: 400px;
+  height: 550px;
+  margin: auto;
+  margin-bottom: 60px;
+  position: relative;
+  top: 50px;
+}
+
+#intro {
+  width: 200px;
+  position: relative;
+  top: 100px;
+  left: 150px;
+  float: left;
 }
 
 h2, h3 {
   width: 40%;
   text-align: center;
+}
+
+h3 {
+  border: 0px;
 }
 
 h2, h3, .main-text {
@@ -107,11 +142,7 @@ h3 {
 
 .text-link {
   display: inline;
-}
-
-#intro {
-  position: relative;
-  top: 15px;
+  border: 0px;
 }
 
 
