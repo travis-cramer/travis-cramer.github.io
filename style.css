@@ -54,7 +54,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111111;
+    background-color: rgb(30, 70, 100);
 }
 
 /* CONTAINER */
@@ -115,6 +115,7 @@ h2, #intro, #self-photo {
   margin-top: 50px;
   padding: 30px 60px;
   font-family: "Open Sans";
+  font-size: 1.3em;
 }
 
 /* MAIN TEXTS/TITLES */
@@ -124,16 +125,17 @@ h2, h3 {
   text-align: center;
 }
 
-h3 {
-  border: 0px;
-}
-
 h2, h3, .main-text {
   margin: 10px auto;
 }
 
+h2 {
+  font-size: 2.5em;
+}
+
 h3 {
   padding-top: 0px;
+  font-size: 2em;
 }
 
 #projects-title {
@@ -145,6 +147,7 @@ h3 {
   padding: 30px 80px;
   margin-bottom: 50px;
   font-family: 'Open Sans';
+  font-size: 1.3em;
 }
 
 .text-link {
