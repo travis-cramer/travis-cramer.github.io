@@ -1,0 +1,50 @@
+/* TESTING DROP-DOWN MENU */
+
+* {
+	font-size: 40px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.nav-wrapper {
+	width: 100%;
+	background: rgba(0, 60, 200, 0.5);
+}
+
+.nav-menu {
+	position: relative;
+	display: inline-block;
+}
+
+.nav-menu li {
+	list-style-type: none;
+}
+
+.sup-item {
+	display: inline;
+}
+
+.sub-menu {
+	position: absolute;
+	width: 300px;
+	display: none;
+	background: #ccc;
+}
+
+.sub-item {
+	display: block;
+}
+
+.nav-menu ul li:hover > ul {
+	display: inline-block;
+}
+
+.nav-menu > ul > li:after {
+	content: "\25BC";
+	font-size: .5em;
+	display: inline;
+	position: relative;
+}
