@@ -200,4 +200,18 @@ h3 {
   .main-text {
     padding: 30px 30px;
   }
-} 
+
+  .clearfix:after {
+    content: "";
+    display: table;
+  }
+
+  .nav-menu {
+    position: relative;
+    display: inline-block;
+  }
+
+
+
+
+} /* END OF MOBILE */
