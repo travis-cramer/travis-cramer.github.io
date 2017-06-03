@@ -2,11 +2,45 @@
   display: block;
   border: 0px solid rgba(0, 0, 0, 1);
   margin: 0;
+  font-family: sans-serif;
  }
 
  head {
   display: none;
  }
+
+/* HEADER (NAV) */
+
+.nav {
+  padding-right: 1em;
+}
+
+#nav-list {
+  background-color: rgba(0, 0, 0, 0.85);
+  list-style-type: none;
+}
+
+#nav-list a {
+  display: inline;
+  color: White;
+  text-decoration: none;
+}
+
+#nav-list li {
+  display: inline;
+  width: auto;
+  float: right;
+  padding: 1em;
+}
+
+#contact-link {
+  border: 2px solid White;
+  padding: 0.4em;
+}
+
+
+
+
 
  /* ALL BOXES */
 
@@ -93,7 +127,7 @@
  }
 
 /* HOVER EFFECTS */
- #resume a:hover {                
+ #contact-link:hover, #resume a:hover {                
   background-color: White;
   color: Black;
  }
@@ -134,7 +168,7 @@
   background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
   margin: 0;
-  padding: 3em 0;
+  padding: 5em 0;
 }
 
 #fourth-box h3 {
@@ -240,12 +274,12 @@
   #bio {
     display: block;
     text-align: left;
-    padding-left: 2em;
+    padding-left: 1em;
     width: auto;
   }
 
   .main-box p {
-  padding: 4em 1em;
+  padding: 4em 2em;
   }
 
 
