@@ -1,6 +1,6 @@
  * {
   display: block;
-  border: 0px solid rgba(0, 0, 0, 0.3);
+  border: 0px solid rgba(0, 0, 0, 1);
   margin: 0;
  }
 
@@ -10,10 +10,27 @@
 
  /* ALL BOXES */
 
+ .head-box {
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+ }
+
+ .head-box a {
+  display: inline-block;
+ }
+
+ .head-box p {
+  padding: 4em 4em;
+  line-height: 2em;
+ }
+
  .main-box {
   width: 100%;
   text-align: center;
   font-family: sans-serif;
+  padding: 2em 0;
+  font-size: 20px;
  }
 
  .main-box a {
@@ -113,7 +130,6 @@
 
 
 #projects-title {
-  margin-top: 4em;
   color: White;
   background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
@@ -123,6 +139,10 @@
 
 #fourth-box h3 {
   padding-top: 3em;
+}
+
+#fourth-box {
+  padding-top: 0;
 }
 
 
