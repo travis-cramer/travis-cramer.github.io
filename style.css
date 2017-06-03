@@ -9,6 +9,15 @@
   display: none;
  }
 
+/* mini-header */
+
+#mini-header {
+  text-align: center;
+  padding: 0.3em 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: White;
+}
+
 /* HEADER (NAV) */
 
 .nav {
