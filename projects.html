@@ -2,6 +2,8 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="projects.js"></script>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   <title>Travis Cramer</title>
 </head>
@@ -10,7 +12,7 @@
 <div class="nav" id="header">
   <ul class="list-inline" id="nav-list">
     <li>
-      <a href="#connect-box" id="contact-link">Contact</a>
+      <a href="#connect-box" class="bordered-link" id="contact-link">Contact</a>
     </li>
     <li>
       <a href="projects.html">Projects</a>
@@ -21,9 +23,12 @@
   </ul>
 </div>
 
+<div class="main-box" id="projects-box">
+  <h2 id="projects-title">PERSONAL PROJECTS</h2>
+</div>
 
 <div class="main-box" id="fourth-box">
-    <h2 id="projects-title">PERSONAL PROJECTS</h2>
+    
       <h3>Data Science at UCSB</h3>
       <p class="main-text">
         For over a year now, I have participated in the Data Science club at UCSB by taking part in the Project Group where I engaged in predictive modeling competitions held by <a href="https://www.kaggle.com/competitions" class="text-link" target="_blank">kaggle.com</a>. There, I've worked with others in teams of 3-4 to create predictive models by using powerful machine learning algorithms such as Linear Regression, Support Vector Machines, Decision Trees, Neural Networks, and more.
@@ -67,7 +72,7 @@
 
   <div class="main-box" id="footer">
     <p>
-      Website written from scratch in HTML/CSS
+      Website written from scratch in HTML/CSS/jQuery
     </p>
   </div>
 
