@@ -244,5 +244,9 @@
     width: auto;
   }
 
+  .main-box p {
+  padding: 4em 1em;
+ }
+
 
 } 
