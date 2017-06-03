@@ -42,7 +42,7 @@
 #bio {
   display: inline-block;
   position: relative;
-  left: 20em; top: 8em;
+  left: 25%; top: 25%;
 }
 
 #first-box h1, #first-box h2 {
