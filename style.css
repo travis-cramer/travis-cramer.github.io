@@ -22,6 +22,28 @@
   display: none;
  }
 
+ /* COVER PAGE */
+
+ .cover-page {
+  position: absolute;
+  height: 4000px;
+  width: 100%;
+  z-index: 999;
+  opacity: 0.9;
+  background-color: var(--main-color);
+ }
+
+ #proceed {
+  border: 2px solid White;
+  width: 5em;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 5%;
+  color: White;
+  font-size: 40px;
+ }
+
 /* mini-header */
 
 #mini-header {
@@ -159,11 +181,7 @@
   padding: 10px;
  }
 
-/* HOVER EFFECTS */
- #contact-link:hover, #resume a:hover {                
-  background-color: White;
-  color: Black;
- }
+
 
 
  /* ----------------------------------------- */
