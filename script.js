@@ -1,6 +1,8 @@
-$(document).ready(function(){
+$(document).ready( function(){
+    var titles = ["B.S. Mathematical Sciences", "Student Developer", "Data Engineer", "Avid Reader", "Desperate College-grad"];
+    
     $("#myname").delay(100).fadeTo(1200, 1);
-    $("#mytitle").delay(200).fadeTo(1200, 1);
+    $("#mytitle").text(titles[0]).delay(200).fadeTo(1200, 1);
     $("#resume").delay(300).fadeTo(1200, 1);
 
 
@@ -13,9 +15,22 @@ $(document).ready(function(){
     	$(this).css('color', 'White');
     })
 
-    $('#proceed').click( function() {
-    	$('.cover-page').fadeOut(100);
-    })
+    var length = titles.length;
+    var i = 1;
+
+    function loopLi() {
+        setInterval(function() {    // this code is executed every 1200 milliseconds:
+
+            $("#mytitle").delay(1200).fadeTo(1200, 0, function() {
+                $(this).text(titles[i]);
+                i = (i+1) % length;
+            }).fadeTo(1200, 1);
+
+        }, 1200);
+    }
+
+    $(loopLi);
+
 })
     
 
