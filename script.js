@@ -21,10 +21,10 @@ $(document).ready( function(){
     function loopLi() {
         setInterval(function() {    // this code is executed every 1200 milliseconds:
 
-            $("#mytitle").delay(1200).fadeTo(1200, 0, function() {
+            $("#mytitle").delay(1800).fadeTo(1800, 0, function() {
                 $(this).text(titles[i]);
                 i = (i+1) % length;
-            }).fadeTo(1200, 1);
+            }).fadeTo(1800, 1);
 
         }, 1200);
     }
