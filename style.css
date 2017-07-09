@@ -252,12 +252,26 @@
   color: White;
 }
 
+#fifth-box a {
+  color: White;
+}
+
 /* ----------------------------------------- */
 /* SIXTH BOX */
 /* ----------------------------------------- */
 
 #sixth-box h3 {
   margin-top: 3em;
+}
+
+/* ----------------------------------------- */
+/* SEVENTH BOX */
+/* ----------------------------------------- */
+
+#seventh-box {
+  background-color: var(--secondary-color);
+  color: White;
+  padding-top: 4em;
 }
 
 
