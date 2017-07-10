@@ -352,8 +352,10 @@
   padding: 4em 2em;
   }
 
+
   #nav-list li {
     padding: 0.5em;
+    padding-top: 1em;
   }
 
 
